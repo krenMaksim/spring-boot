@@ -10,6 +10,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<project.version>1.0-SNAPSHOT</project.version>
 		<project.groupId>com.kren.boot</project.groupId>
 		<java.version>1.8</java.version>
@@ -30,6 +31,8 @@
 
 	<modules>
 		<module>hello-world</module>
+        <module>executable-jar</module>
+        <module>executable-war</module>
 	</modules>
 	
 	<dependencyManagement>
